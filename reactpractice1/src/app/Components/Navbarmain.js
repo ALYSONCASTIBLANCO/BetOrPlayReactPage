@@ -1,7 +1,8 @@
+import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import '../App.css';     
+//import '../App.css';     
 
 export default function Navbarmain(){
     return(

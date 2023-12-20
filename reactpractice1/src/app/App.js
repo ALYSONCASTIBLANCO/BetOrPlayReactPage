@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
+//import logo from './logo.svg';
+//import './App.css';
+import React from "react";
 function Message(title){
 return <h1>{title}</h1>
 }
@@ -14,7 +14,7 @@ function Register(e){
  
 function App() {
   return (
-    <div className='App'>
+    <div>
       <h1>{Message("Ola ke ase pa bienvenido, lea")}</h1>
       <form onSubmit={Register}>
         <p>Name here: <input type='text' name='name1'></input></p>
