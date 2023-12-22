@@ -7,13 +7,12 @@ import Navbarmain2 from './Components/Navbarmain2';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarmain from './Components/Navbarmain';
 import Home from './Home';
+import App1 from './App1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbarmain2></Navbarmain2>
-    <Home/>
-    <Navbarmain></Navbarmain>
+    <App1></App1>
   </React.StrictMode>
 );
 
