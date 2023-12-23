@@ -66,7 +66,7 @@ export default function Home(){
                             <Card.Text>
                                 In BetOrPlay.com, you can watch on live all the resuls of all your favourite sports.
                             </Card.Text>
-                            <Button variant="primary">Watch stats</Button>
+                            <Button href="/sports">Watch stats</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -80,7 +80,7 @@ export default function Home(){
                             <Card.Text>
                                 Start with a little amount of money and enjoy the game!
                             </Card.Text>
-                            <Button variant="primary">Start now</Button>
+                            <Button href="/signin">Start now</Button>
                         </Card.Body>
                     </Card>
                 </Col>

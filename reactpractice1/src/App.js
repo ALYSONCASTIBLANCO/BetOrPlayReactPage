@@ -1,27 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Home from "./Home";
+import AboutUs from "./AboutUs";
+import SignIn from "./SignIn";
+import Navbarmain from "./Components/Navbarmain";
+import Navbarmain2 from "./Components/Navbarmain2";
+import SportsMain from "./sports/sportsmain";
 
-function Message(title){
-return <h1>{title}</h1>
-}
-function Register(e){
-  e.preventDefault();
-  var name=e.target.name1.value;
-  var surname=e.target.surname1.value;
-  alert(name+' '+surname)
-
-}
- 
 function App() {
   return (
-    <div className='App'>
-      <h1>{Message("Ola ke ase pa bienvenido, lea")}</h1>
-      <form onSubmit={Register}>
-        <p>Name here: <input type='text' name='name1'></input></p>
-        <p>Surname here: <input type='text' name='surname1'></input></p>
-        <input type='submit' value='Load'></input>
-      </form>
-    </div>
+    <Router>
+      <Navbarmain2/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/aboutus" element={<AboutUs/>}/>
+        <Route path="/signin" element={<SignIn/>}/>
+        <Route path="/sports" element={<SportsMain/>}/>
+      </Routes>
+      <Navbarmain/>
+    </Router>
   );
 }
 
