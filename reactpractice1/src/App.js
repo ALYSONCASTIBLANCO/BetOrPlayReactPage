@@ -9,6 +9,7 @@ import SignUp from "./signup";
 import Recover from "./Recover";
 import RecoverUser from "./RecoverUser";
 import RecoverPassword from "./RecoverPassword";
+import SportTemplate from "./sports/templatesport";
 
 function App() {
 
@@ -17,7 +18,6 @@ function App() {
       <header>
         <Navbarmain2/>
       </header>
-      <body style={{display:"block", paddingBottom:"70px"}}>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/aboutus" element={<AboutUs/>}/>
@@ -27,8 +27,8 @@ function App() {
         <Route path="/recoveruser" element={<RecoverUser/>}/>
         <Route path="/recoverpass" element={<RecoverPassword/>}/>
         <Route path="/sports" element={<SportsMain/>}/>
+        <Route path="/sporttemplate" element={<SportTemplate/>}/>
       </Routes>
-      </body>
       <footer style={{position: "fixed", bottom: 0, width:"100%", display: "block"}}>
         <Navbarmain/>
       </footer>

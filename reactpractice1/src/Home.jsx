@@ -9,8 +9,8 @@ export default function Home(){
         <Container fluid>
             <Row>
                 <Col>
-                <h1 class=' fs-1 text-center'>Welcome to BetOrPlay.com</h1>
-                <p class='text-center fst-italic'>Here you can bet all different games in all sports</p>
+                <h1 className=' fs-1 text-center'>Welcome to BetOrPlay.com</h1>
+                <p className='text-center fst-italic'>Here you can bet all different games in all sports</p>
                 </Col>
             </Row>
             <Row className='justify-content-md-center'>

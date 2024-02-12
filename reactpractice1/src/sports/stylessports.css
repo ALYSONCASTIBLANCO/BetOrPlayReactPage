@@ -1,0 +1,15 @@
+.Card{
+    width:18rem
+}
+
+.sportstitle{
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+.cardtitle{
+    text-align: center;
+}
+.images:hover{
+    transform: scale(1.5);
+}
